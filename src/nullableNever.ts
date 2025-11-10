@@ -15,6 +15,8 @@ const discountCalculator = (input: unknown) => {
     } else if (typeof input === "string") {
         const [discountedPrice] = input.split(" ");
         console.log(Number(discountedPrice) * 0.1);
+    } else{
+        console.log('Wrong input');
     }
 }
 
