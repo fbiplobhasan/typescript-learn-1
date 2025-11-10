@@ -22,27 +22,27 @@
 // console.log(selectedTheme);
 
 // const isAuthenticated = null;
-const isAuthenticated = '';
+// const isAuthenticated = '';
 
-const resultWithTernary = isAuthenticated ? isAuthenticated: "You are guest!";
+// const resultWithTernary = isAuthenticated ? isAuthenticated: "You are guest!";
 
-const resultWithNulish = isAuthenticated ?? 'You are guest!';
+// const resultWithNulish = isAuthenticated ?? 'You are guest!';
 
-console.log({resultWithTernary},{resultWithNulish});
+// console.log({resultWithTernary},{resultWithNulish});
 
 
-const user: {
-    address: {
-        city: string;
-        town:string;
-        postalCode?:string;
-    } ;
-} = {
-    address: {
-        city: "Dhaka",
-        town: "Banani",
-    }
-}
+// const user: {
+//     address: {
+//         city: string;
+//         town:string;
+//         postalCode?:string;
+//     } ;
+// } = {
+//     address: {
+//         city: "Dhaka",
+//         town: "Banani",
+//     }
+// }
 
-const postalCode = user?.address?.postalCode;
-console.log(postalCode);
+// const postalCode = user?.address?.postalCode;
+// console.log(postalCode);
